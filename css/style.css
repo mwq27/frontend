@@ -210,12 +210,37 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author: 
    ========================================================================== */
+html, body{
+	height: 100%;
+	background: #000;
+}
 
+footer{
+	position:absolute;
+	height: 80px;
+	width: 100%;
+	background: #999;
+	bottom:0;
+	padding:10px 0px;
+	
+}
+footer ul	{
+	margin:0px;
+}
+footer ul li{
+	display:inline;
+}
 
-
-
-
-
+#container{
+	min-height: 100%;
+	position: relative;
+	background-color:green;
+	
+}
+#main{
+	padding-bottom: 90px;
+	
+}
 
 
 
