@@ -8,6 +8,13 @@ $(function(){
 		$("#container").fadeOut(300, function(){
 			$(this).css("background","url("+path+")").fadeIn(300);
 		});
+		
+		$(this).children("img")
+		.slideUp(300);
+		$(this)
+		.children("p")
+		.fadeIn(300);
+		
 			
 	});
 	

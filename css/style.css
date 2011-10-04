@@ -226,9 +226,14 @@ footer{
 }
 footer ul	{
 	margin:0px;
+	width:100%;
 }
 footer ul li{
 	display:inline;
+	overflow:hidden;
+	width:80px;
+	float:left;
+	margin: 0px 10px;
 }
 
 #container{
@@ -242,7 +247,11 @@ footer ul li{
 	
 }
 
-
+p.message{
+	width: 80px;
+	display:none;
+	
+}
 
 
 
